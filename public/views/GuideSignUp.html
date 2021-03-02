@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- THE USER SIGN UP PAGE.
+ IT GETS THE USER'S INFO AND LOCATION -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/sign.css">
+
+</head>
+<body>
+    <div class="topnav" align="center" style="background-color: #f1f1f1">
+        <h1>
+            <a href="index.html" style="background-color: #f1f1f1">WEATHER VAULT<a>
+        </h1>
+        <a href="GuideLogin.html" class="button"><i class="fa fa-sign-in"> Login |</i></a>
+        <a href="GuideSignUp.html" class="button"><i class="fa fa-user-plus"> Sign up |</i></a>
+        <a href="GuideLocation.html" class="button"><i class="fa fa-map-marker"> Locations |</i></a>
+        <a href="GuideAccount.html" class="button"><i class="fa fa-user-o"> My page |</i></a>
+    </div>
+    <div class="banner-info" align="center" >
+        <br>
+        <br>
+        <h2>Fill in your information below to become a Weather Vault Guide.</h2>
+    <h1 id="header" class="header"></h1>
+    <div id="container">
+        <!-- implement the "passwords do not match and the "no email and stuff -->
+        <label>
+            <input type="text" placeholder="First name" name="firstName" required > <br>
+            <input type="text" placeholder="Last name" name="lastName" required > <br>
+            <input type="text" placeholder="Email" name="Email" required > <br>
+            <input type="text" placeholder="Zip Code" name="Zip_Code" required> <br>
+            <input name="psw" placeholder="Password" required type="password"> <br>
+            <select required name="climates" id="climates">
+                <option value="" selected disabled hidden>Choose your climate</option>
+                <option value="highlands">highlands</option>
+                <option value="subtropical">subtropical</option>
+                <option value="continental">continental</option>
+                <option value="polar">polar</option>
+            </select>
+            <br>
+        </label>
+        <br>
+        <button>create account</button>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

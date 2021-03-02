@@ -1,0 +1,109 @@
+/* ==========================================================================
+   index(old).html styles
+   ========================================================================== */
+
+
+.nav-menu {
+  text-align: center;
+  font: menu;
+  background-color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-title {
+  text-decoration: none;
+  color: powderblue;
+  text-align: center;
+}
+
+.page-title:hover {
+  color: #f1f1f1;
+  font-weight: bolder;
+}
+
+h3.sub-page-title {
+  text-align: center;
+}
+
+
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+a.button:hover {
+  color: #cccccc;
+  font-weight: bolder;
+}
+
+.main_image_container {
+  position: relative;
+  text-align: center;
+}
+/* Top left text */
+.highlands {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.highlands:hover {
+  text-decoration: underline;
+}
+
+/* Bottom left text */
+.subtropical {
+  color: #DCE3C4;
+  font-weight: bold;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+}
+
+.subtropical:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/* Top right text */
+.polar {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.polar:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+/* Bottom right text */
+.continental {
+  font-weight: bold;
+  color: #F1C76E;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
+
+.continental:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
